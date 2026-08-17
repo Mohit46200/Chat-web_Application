@@ -1,6 +1,6 @@
 const username = prompt("Enter your name:");
 
-const socket = new WebSocket("ws://localhost:9000");
+const socket = new WebSocket("https://chat-web-application-2p61.onrender.com/");
 
 const messages = document.getElementById("messages");
 const messageInput = document.getElementById("messageInput");
